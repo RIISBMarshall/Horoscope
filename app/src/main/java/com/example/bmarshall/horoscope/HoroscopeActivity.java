@@ -32,7 +32,5 @@ public class HoroscopeActivity extends AppCompatActivity {
 
         TextView horoscopeView = (TextView) findViewById(R.id.horoscope);
         horoscopeView.setText(horoscope.getHoroscope());
-
-
     }
 }

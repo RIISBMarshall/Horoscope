@@ -18,7 +18,7 @@ public class MainActivity extends ListActivity {
     }
 
     @Override
-    public void onListItemClick(ListView listView, View itemView, int position, long id){
+    public void onListItemClick(ListView listView, View itemView, int position, long id) {
         Intent intent = new Intent(MainActivity.this, HoroscopeActivity.class);
         intent.putExtra(HoroscopeActivity.EXTRA_HOROSCOPENO, (int) id);
         startActivity(intent);
